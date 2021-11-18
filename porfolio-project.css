@@ -4,10 +4,12 @@
   justify-content: center;
   text-align: center;
 }
+/* CSS for image */
 
 * {
   color: white;
 }
+/* color of text */
 
 @media only screen and (max-width: 700px) {
   body {
@@ -25,6 +27,7 @@
   float: left;
   position: fixed;
 }
+/* nav bar*/
 
 body {
   background-color: #000000;
@@ -32,10 +35,11 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+/* the background */
 
-.text {
+/* .text {
   float: left;
-}
+} */
 
 .box1 {
   display: flex;
@@ -47,6 +51,7 @@ body {
   float: left;
   position: unset;
 }
+/* the CSS for the first box */
 
 .box2 {
   display: flex;
@@ -58,7 +63,7 @@ body {
   height: 99%;
   float: left;
 }
-
+/* CSS for the seccont box */
 .box3 {
   display: flex;
   align-items: center;
@@ -68,11 +73,14 @@ body {
   height: 99%;
   float: right;
 }
+/* css for the third box */
+
 .boxStorage {
   display: flex;
   justify-content: space-between;
 }
+/* box spacing */
 
-.textcolor2 {
+/* .textcolor2 {
   color: lightskyblue;
-}
+} */
