@@ -11,11 +11,101 @@
 }
 /* color of text */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: black
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* CSS for image */
+
+    .field {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: blue;
+      width: 47%;
+      height: 9%;
+      float: left;
+      position: fixed;
+    }
+    /* nav bar*/
+  
+    .box1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: orangered;
+      width: 92%;
+      height: 60%;
+      float: left;
+      position: unset;
+      
+
+    }
+    /* the CSS for the first box */
+    
+    .box2 {
+      display: flex;
+      align-self: center;
+      justify-self: center;
+      justify-content: center;
+      background-color: purple;
+      width: 92%;
+      height: 60%;
+      float: left;
+      
+    }
+    /* CSS for the seccont box */
+    .box3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: green;
+      width: 92%;
+      height: 50%;
+      float: left;
+      
+    }
+    /* css for the third box */
+    
+    .boxStorage {
+      display: block;
+      justify-content: space-between;
+    }
+    /* box spacing */
+    
+    /* .textcolor2 {
+      color: lightskyblue;
+    } */
+    
+    div#navbar{
+      width: 90vw;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-between;
+    
+    
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 3000px) {
   body {
     background-color: yellow;
-  }
 }
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* CSS for image */
 
 .field {
   display: flex;
@@ -91,6 +181,6 @@ div#navbar{
   margin-right: auto;
   display: flex;
   justify-content: space-between;
-
+}
 
 }
