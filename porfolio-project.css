@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  
 }
 /* CSS for image */
 
@@ -13,99 +14,118 @@
 
 @media only screen and (max-width: 480px) {
   body {
-    background-color: black
+    background-color: #515360
 }
 
-.img {
+ .img {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-/* CSS for image */
+  /* CSS for image for moblie*/
+ }
 
-    .field {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: blue;
-      width: 47%;
-      height: 9%;
-      float: left;
-      position: fixed;
-    }
-    /* nav bar*/
+
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 47%;
+    height: 9%;
+    float: left;
+    position: fixed;
+    /* nav bar for moblie*/
+  }
+
+
+  .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    width: 93.5%;
+    height: 60%;
+    float: left;
+    position: unset;
+    /* the CSS for the first box for moblie*/
+  }
   
-    .box1 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: orangered;
-      width: 92%;
-      height: 60%;
-      float: left;
-      position: unset;
-      
+  
+  .box2 {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    background-color: purple;
+    width: 93.5%;
+    height: 60%;
+    float: left;
+    /* CSS for the seccont box for moblie*/
+  }
+    
+ .box3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: green;
+   width: 93.5%;
+   height: 50%;
+   float: left;
+   /* css for the third box for moblie*/
+ }
 
-    }
-    /* the CSS for the first box */
-    
-    .box2 {
-      display: flex;
-      align-self: center;
-      justify-self: center;
-      justify-content: center;
-      background-color: purple;
-      width: 92%;
-      height: 60%;
-      float: left;
-      
-    }
-    /* CSS for the seccont box */
-    .box3 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: green;
-      width: 92%;
-      height: 50%;
-      float: left;
-      
-    }
-    /* css for the third box */
-    
-    .boxStorage {
-      display: block;
-      justify-content: space-between;
-    }
-    /* box spacing */
-    
-    /* .textcolor2 {
-      color: lightskyblue;
-    } */
-    
-    div#navbar{
-      width: 90vw;
-      margin-left: auto;
-      margin-right: auto;
-      display: flex;
-      justify-content: space-between;
-    
-    
-    }
+ .boxStorage {
+   display: block;
+   justify-content: space-between;
+   /* box spacing for moblie*/
+ }
+ 
+ 
+ /* .textcolor2 {
+   color: lightskyblue;
+ } */
+ 
+ div#navbar{
+   width: 90vw;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: space-between;
+ /* the spacing in the navbar for moblie */ 
+ }
+
+ .text2{
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',
+   'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    /* text for other pages on moblie */
+}
+
+.text{
+  display: flex;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',
+   'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+   /* text for Contact page for for moblie*/
+}
+ 
+
+
+
+
 }
 @media only screen and (min-width: 1025px) and (max-width: 3000px) {
-  body {
-    background-color: yellow;
-}
+  /* the CSS for coumputer */
 
 .img {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  /* CSS for image */
 }
-/* CSS for image */
+
 
 .field {
   display: flex;
@@ -116,16 +136,25 @@
   height: 7%;
   float: left;
   position: fixed;
+  /* nav bar*/
 }
-/* nav bar*/
 
-body {
+
+.body {
   background-color: #000000;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Cpath fill='none' stroke-width='36.5' stroke-opacity='0.93' id='a' d='M0-478l-413.96 717h827.92L0-478l-413.96 717h827.92z'/%3E%3C/defs%3E%3Cg transform='scale(0.532)' style='transform-origin:center'%3E%3Cg transform='rotate(72 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-129.6 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%23FF0' href='%23a' transform='rotate(-64.8 0 0) scale(0.352)'/%3E%3Cuse stroke='%23fff700' href='%23a' transform='rotate(-56.7 0 0) scale(0.433)'/%3E%3Cuse stroke='%23fff000' href='%23a' transform='rotate(-48.6 0 0) scale(0.514)'/%3E%3Cuse stroke='%23ffe800' href='%23a' transform='rotate(-40.5 0 0) scale(0.595)'/%3E%3Cuse stroke='%23ffe000' href='%23a' transform='rotate(-32.4 0 0) scale(0.676)'/%3E%3Cuse stroke='%23ffd800' href='%23a' transform='rotate(-24.3 0 0) scale(0.757)'/%3E%3Cuse stroke='%23ffd000' href='%23a' transform='rotate(-16.2 0 0) scale(0.838)'/%3E%3Cuse stroke='%23ffc800' href='%23a' transform='rotate(-8.1 0 0) scale(0.919)'/%3E%3Cuse stroke='%23ffc000' href='%23a'/%3E%3Cuse stroke='%23ffb800' href='%23a' transform='rotate(8.1 0 0) scale(1.081)'/%3E%3Cuse stroke='%23ffb000' href='%23a' transform='rotate(16.2 0 0) scale(1.162)'/%3E%3Cuse stroke='%23ffa700' href='%23a' transform='rotate(24.3 0 0) scale(1.243)'/%3E%3Cuse stroke='%23ff9f00' href='%23a' transform='rotate(32.4 0 0) scale(1.324)'/%3E%3Cuse stroke='%23ff9600' href='%23a' transform='rotate(40.5 0 0) scale(1.405)'/%3E%3Cuse stroke='%23ff8d00' href='%23a' transform='rotate(48.6 0 0) scale(1.486)'/%3E%3Cuse stroke='%23ff8400' href='%23a' transform='rotate(56.7 0 0) scale(1.567)'/%3E%3Cuse stroke='%23ff7b00' href='%23a' transform='rotate(64.8 0 0) scale(1.648)'/%3E%3Cuse stroke='%23ff7100' href='%23a' transform='rotate(72.9 0 0) scale(1.729)'/%3E%3Cuse stroke='%23ff6700' href='%23a' transform='rotate(81 0 0) scale(1.81)'/%3E%3Cuse stroke='%23ff5d00' href='%23a' transform='rotate(89.1 0 0) scale(1.891)'/%3E%3Cuse stroke='%23ff5200' href='%23a' transform='rotate(97.2 0 0) scale(1.972)'/%3E%3Cuse stroke='%23ff4500' href='%23a' transform='rotate(105.3 0 0) scale(2.053)'/%3E%3Cuse stroke='%23ff3700' href='%23a' transform='rotate(113.4 0 0) scale(2.134)'/%3E%3Cuse stroke='%23ff2400' href='%23a' transform='rotate(121.5 0 0) scale(2.215)'/%3E%3Cuse stroke='%23F00' href='%23a' transform='rotate(129.6 0 0) scale(2.296)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
+  /* the background */
 }
-/* the background */
+
+.projectb_background {
+background-color: #2D2D2D;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.61'%3E%3Cpolygon fill='%23333f37' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23395041' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2340624a' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23467354' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%234C855E' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+/* the background for other pages*/
+}
 
 /* .text {
   float: left;
@@ -140,8 +169,9 @@ body {
   height: 99%;
   float: left;
   position: unset;
+  /* the CSS for the first box */
 }
-/* the CSS for the first box */
+
 
 .box2 {
   display: flex;
@@ -150,10 +180,11 @@ body {
   justify-content: center;
   background-color: purple;
   width: 26%;
-  height: 99%;
-  float: left;
+  height: 150%;
+  
+  /* CSS for the seccont box */
 }
-/* CSS for the seccont box */
+
 .box3 {
   display: flex;
   align-items: center;
@@ -162,14 +193,16 @@ body {
   width: 26%;
   height: 99%;
   float: right;
+  /* css for the third box */
 }
-/* css for the third box */
+
 
 .boxStorage {
   display: flex;
   justify-content: space-between;
+  /* box spacing */
 }
-/* box spacing */
+
 
 /* .textcolor2 {
   color: lightskyblue;
@@ -181,6 +214,26 @@ div#navbar{
   margin-right: auto;
   display: flex;
   justify-content: space-between;
+  /* the spacing in the navbar */
 }
 
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',
+   'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+   /* text for Contact page */
+}
+
+.text2{
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',
+  'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    /* text for other pages */
+}
+
+
+/* end of page */
 }
