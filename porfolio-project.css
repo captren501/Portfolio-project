@@ -5,6 +5,7 @@
   text-align: center;
   
   
+  
 }
 /* CSS for image */
 
@@ -137,6 +138,9 @@
   height: 7%;
   float: left;
   position: fixed;
+  border-style: solid;
+  border-style: solid;
+  border-width: 4px;
   /* nav bar*/
 }
 
