@@ -9,16 +9,23 @@
 }
 /* CSS for image */
 
-* {
-  color: white;
-}
+
 /* color of text */
 
 @media only screen and (max-width: 480px) {
   body {
-    background-color: #515360
+    background-color: whitesmoke
 }
 
+
+a:link {
+  color: whitesmoke;
+}
+
+
+a:visited {
+  color: whitesmoke;
+}
  .img {
   display: flex;
   align-items: center;
@@ -33,10 +40,12 @@
     align-items: center;
     justify-content: center;
     background-color: blue;
+    color:whitesmoke;
     width: 47%;
     height: 9%;
     float: left;
     position: fixed;
+    
     /* nav bar for moblie*/
   }
 
@@ -111,6 +120,33 @@
    'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
    /* text for Contact page for for moblie*/
   }
+
+  body {
+    
+    background-color: whitesmoke;
+    color: black ;
+    
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  button{
+    color: gold;
+    background-color: green;
+    padding: 5px;
+    font-size: 25px;
+  
+  }
+
+  .toggle{
+    position: relative;
+    top: 2rem;
+    left: 7rem;
+    visibility: visible;
+    display: block;
+  }
 /*  
 
 
@@ -119,6 +155,10 @@
 }
 @media only screen and (min-width: 1025px) and (max-width: 3000px) {
   /* the CSS for coumputer */
+
+  * {
+    color: white;
+  }
 
 .img {
   display: flex;
@@ -245,8 +285,15 @@ div#navbar{
   font-family: 'Lucida Sans', 'Lucida Sans Regular',
   'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     /* text for other pages */
-}
 
+}
+.toggle{
+    position: relative;
+    top: 2rem;
+    left: 7rem;
+    visibility:hidden;
+    display: none;
+  }
 
 /* end of page */
 }
