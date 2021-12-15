@@ -106,24 +106,54 @@ a:visited {
  /* the spacing in the navbar for moblie */ 
  }
 
- .text2{
-  font-size: large;
+ .text3{
+  display: flex;
+  color: red;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+  font-size: 150%;
+  width: 70%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular',
    'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    /* text for other pages on moblie */
+    /* text for titles */
   }
 
+  .text2{
+    display: flex;
+    color: blue;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+      margin-right: auto;
+      width: 8em;
+    font-size: 150%;
+    width: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+      /* text for titles */
+    }
 .text{
-  display: flex;
-  font-size: large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular',
-   'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-   /* text for Contact page for for moblie*/
+  
+    display: flex;
+  
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+      margin-right: auto;
+      width: 8em;
+    font-size: 150%;
+    width: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+   /* text for moblie*/
   }
 
   body {
     
-    background-color: whitesmoke;
+    background-color: lightgrey;
     color: black ;
     
   }
@@ -272,27 +302,63 @@ div#navbar{
 
 .text{
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: large;
+  margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+  font-size: 150%;
+  width: 70%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular',
    'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
    /* text for Contact page */
 }
 
+
+
 .text2{
-  font-size: large;
+  display: flex;
+  color: blue;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+  font-size: 150%;
+  width: 70%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular',
-  'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    /* text for other pages */
+   'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    /* text for hyper links */
 
 }
+
+.text3{
+  display: flex;
+  color: red;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+  font-size: 170%;
+  width: 70%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',
+   'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    /* text for titles */
+}
+
+
 .toggle{
     position: relative;
     top: 2rem;
     left: 7rem;
     visibility:hidden;
     display: none;
+  }
+
+  iframe{
+    top: 2rem;
+    left: 7rem;
   }
 
 /* end of page */
